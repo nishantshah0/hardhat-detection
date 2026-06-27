@@ -1,0 +1,27 @@
+# Virtual environment
+yolo-env/
+venv/
+.venv/
+
+# Dataset (re-downloadable via get_data.py)
+Hard-Hat-Universe-17/
+
+# Training outputs and downloaded model weights
+runs/
+*.pt
+
+# Logs
+train_log.txt
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / tooling
+.claude/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
